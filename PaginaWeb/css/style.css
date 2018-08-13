@@ -3,7 +3,9 @@
 	border-color: #000000;
 	text-align: center;
 	margin-top: 10%;
+	width: 80%;
 }
+
 
 .box {
 	display: inline-block;
