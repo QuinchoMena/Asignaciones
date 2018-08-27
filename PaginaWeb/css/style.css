@@ -1,0 +1,106 @@
+.example-content{
+	border: 2px solid;
+	border-color: #000000;
+	text-align: center;
+	margin-top: 10%;
+	width: 70%;
+}
+
+.box {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+    border: .90em solid;
+    text-align: left;
+}
+.paragraph{
+	height: 80%;
+}
+
+.reference{
+	display: block;
+	margin: 0 auto;
+	text-indent: -9999px;
+	width: 51px;
+	height: 51px;
+}
+
+.internal-content{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	color: #ffffff;
+	padding: 15px;
+	font-size: 16px;
+}
+
+
+.TwitterIcon,.FacebookIcon,.InstagramIcon{
+	height: 52px;
+	width: 52px;
+	background-image: url('../images/social-media-icons-css-sprite.webp');
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+
+
+.TwitterIcon:hover{
+	background-position:  -3px -62px;
+}
+
+.TwitterIcon{
+	background-position:  -3px -5px;
+}
+
+.FacebookIcon:hover{
+	background-position: -60px -62px;
+}
+
+.FacebookIcon{
+	background-position:  -60px -5px;
+}
+
+
+.InstagramIcon:hover{
+	background-position:  -117px -62px;
+}
+
+.InstagramIcon{
+	background-position:  -117px -5px;
+}
+
+
+.firstContent{
+	background-color: #00008b;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.secondContent{
+	background-color: #1e90ff;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.thirdContent{
+	background-color: #822b07;
+	font-family: 'Indie Flower', cursive;
+}
+
+@media (max-width: 700px ){
+	.firstContent{
+		background-color: #27782d;
+	}
+
+	.secondContent{
+		background-color: #f42929;
+	}
+
+	.thirdContent{
+		background-color: #782740;
+	}
+
+}
+
